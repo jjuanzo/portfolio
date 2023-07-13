@@ -1,0 +1,8 @@
+.active span:nth-child(1) {
+  background-color: #e2e8f0 !important;
+  width: 4rem !important;
+}
+
+.active span {
+  color: #e2e8f0 !important;
+}
