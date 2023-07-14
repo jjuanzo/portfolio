@@ -71,22 +71,25 @@ const Header = ({ activeNav }: HeaderInterface) => {
 
       <ul className="ml-1 mt-8 flex items-center">
         <li className="mr-5 text-xs">
-          <a href="https://github.com/jjuanzo">
+          <a href="https://github.com/jjuanzo" target="_blank">
             <BsGithub className="block hover:text-slate-200 text-xl text-slate-400" />
           </a>
         </li>
         <li className="mr-5 text-xs">
-          <a href="https://www.facebook.com/jajuanzo/">
+          <a href="https://www.facebook.com/jajuanzo/" target="_blank">
             <AiOutlineFacebook className="block hover:text-slate-200 text-2xl text-slate-400" />
           </a>
         </li>
         <li className="mr-5 text-xs">
-          <a href="mailto:juanzojosh@gmail.com">
+          <a href="mailto:juanzojosh@gmail.com" target="_blank">
             <FaGoogle className="block hover:text-slate-200 text-xl text-slate-400" />
           </a>
         </li>
         <li className="mr-5 text-xs">
-          <a href="https://www.linkedin.com/in/joshua-juanzo-401025219/">
+          <a
+            href="https://www.linkedin.com/in/joshua-juanzo-401025219/"
+            target="_blank"
+          >
             <FaLinkedinIn className="block hover:text-slate-200 text-xl text-slate-400" />
           </a>
         </li>
