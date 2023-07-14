@@ -70,7 +70,7 @@ const Projects = () => {
         >
           <div className="relative w-52 h-40 col-span-8 mt-1 py-12 order-2 sm:order-1 sm:col-span-2 sm:py-0 sm:w-full sm:h-20">
             <Image
-              src={item.img}
+              src={`/portfolio${item.img}`}
               alt="logo"
               fill
               className="top-0 left-0 object-contain float-left w-full"
