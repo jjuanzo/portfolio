@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/portfolio',
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.svg/,
@@ -15,7 +13,7 @@ const nextConfig = {
         loader: 'file-loader',
         options: {
           name: '[path][name].[hash].[ext]',
-          publicPath: '/_next/static',
+          publicPath: '/_next/static/portfolio',
           outputPath: 'static',
           emitFile: !options.isServer,
         },
@@ -23,6 +21,8 @@ const nextConfig = {
     });
     return config;
   },
+  output: 'export',
+  basePath: '/portfolio',
 };
 
 module.exports = nextConfig;
