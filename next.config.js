@@ -13,7 +13,7 @@ const nextConfig = {
         loader: 'file-loader',
         options: {
           name: '[path][name].[hash].[ext]',
-          publicPath: '/_next/static/portfolio',
+          publicPath: '/_next/static',
           outputPath: 'static',
           emitFile: !options.isServer,
         },
@@ -23,6 +23,7 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
 };
 
 module.exports = nextConfig;
