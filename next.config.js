@@ -5,6 +5,7 @@ const nextConfig = {
       test: /\.svg/,
       use: {
         loader: 'svg-url-loader',
+        basePath: '/portfolio',
       },
     });
     config.module.rules.push({
@@ -16,6 +17,7 @@ const nextConfig = {
           publicPath: '/_next/static',
           outputPath: 'static',
           emitFile: !options.isServer,
+          basePath: '/portfolio',
         },
       },
     });
@@ -23,7 +25,7 @@ const nextConfig = {
   },
   output: 'export',
   basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
