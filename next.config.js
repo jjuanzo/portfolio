@@ -22,7 +22,7 @@ const nextConfig = {
     return config;
   },
   output: 'export',
-  assetPrefix: 'https://github.com/jjuanzo/portfolio',
+  bas: './',
   reactStrictMode: true,
 };
 
