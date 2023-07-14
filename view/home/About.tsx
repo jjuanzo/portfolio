@@ -35,8 +35,7 @@ const About = () => {
         I invite you to explore my{' '}
         <a
           className="transition-all text-slate-300 font-bold hover:text-teal-400"
-          href="https://affinitycorp.net/"
-          target="_blank"
+          href="#projects"
         >
           projects
         </a>{' '}
