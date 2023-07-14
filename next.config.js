@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/portfolio',
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.svg/,
