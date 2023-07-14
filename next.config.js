@@ -1,11 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    loader: 'akamai',
-    path: '',
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.svg/,
+      use: {
+        loader: 'svg-url-loader',
+      },
+    });
+    config.module.rules.push({
+      test: /\.(png|jpe?g|gif)$/i,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[hash].[ext]',
+          publicPath: '/_next/static',
+          outputPath: 'static',
+          emitFile: !options.isServer,
+        },
+      },
+    });
+    return config;
   },
-  assetPrefix: './',
+  output: 'export',
+  assetPrefix: 'https://github.com/jjuanzo/portfolio',
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
