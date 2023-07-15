@@ -2,8 +2,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 
-import { Header } from '@/components';
-import { About, Experience, Projects } from '@/view';
+import { About, Experience, Navbar, Projects } from '@/view';
 
 export default function Home() {
   const aboutContainer = useRef<HTMLDivElement | null>(null);
@@ -61,7 +60,7 @@ export default function Home() {
       />
       <div className="mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex">
-          <Header activeNav={activeNav} />
+          <Navbar activeNav={activeNav} />
 
           <div className="flex-1 ">
             <div id="about" ref={aboutContainer}>

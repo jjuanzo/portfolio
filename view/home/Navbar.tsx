@@ -3,13 +3,13 @@ import { AiOutlineFacebook } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 import { FaGoogle, FaLinkedinIn } from 'react-icons/fa';
 
-import './Header.css';
+import './Home.css';
 
-interface HeaderInterface {
+interface NavbarInterface {
   activeNav: string;
 }
 
-const Header = ({ activeNav }: HeaderInterface) => {
+const Navbar = ({ activeNav }: NavbarInterface) => {
   return (
     <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
@@ -98,4 +98,4 @@ const Header = ({ activeNav }: HeaderInterface) => {
   );
 };
 
-export default Header;
+export default Navbar;
