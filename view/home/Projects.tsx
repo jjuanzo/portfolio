@@ -8,9 +8,9 @@ const Projects = () => {
     {
       key: 1,
       img: '/todoist.png',
-      project: 'Todoist Clone',
+      project: 'Todire App',
       link: 'https://affinitycorp.net/',
-      description: `A web app todoist clone project that organize your work and life. Todoist makes it easy to go as simple or as complex as you want. Using MERN stack.`,
+      description: `A web app todoist clone project that organize your work and life. Todire makes it easy to go as simple or as complex as you want. Using built using MERN stack.`,
       techs: ['MongoDB', 'Express', 'React', 'Node'],
     },
     {
@@ -70,7 +70,7 @@ const Projects = () => {
         >
           <div className="relative w-52 h-40 col-span-8 mt-1 py-12 order-2 sm:order-1 sm:col-span-2 sm:py-0 sm:w-full sm:h-20">
             <Image
-              src={`/portfolio${item.img}`}
+              src={`${item.img}`}
               alt="logo"
               fill
               className="top-0 left-0 object-contain float-left w-full"

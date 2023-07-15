@@ -57,7 +57,7 @@ const Experience = () => {
       <br />
       <a
         className="flex items-center group hover:text-slate-200"
-        href="/portfolio/resume.pdf"
+        href="/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
