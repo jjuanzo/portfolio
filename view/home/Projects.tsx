@@ -10,7 +10,7 @@ const Projects = () => {
       img: '/messenger.png',
       project: 'Real-Timee Messenger Clone',
       link: 'https://messenger-mgfu.vercel.app/',
-      description: `A messenger app clone is a software application designed to replicate the core features and functionalities of a popular messaging platform, often with slight variations or customizations. It aims to provide users with a familiar communication experience while offering some level of distinctiveness.`,
+      description: `A messenger app clone is a software application designed to replicate the core features and functionalities of a popular messaging platform, often with slight variations or customizations.`,
       techs: [
         'Next.js 13',
         'React',
