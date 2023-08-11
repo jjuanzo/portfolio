@@ -12,6 +12,15 @@ const Experience = () => {
       description: `Develop and styled web apps for clients and agents to invest, redeem, fund switch and track investment, anytime and anywhere. Including the desktop app for admin to manage customer data, transactions and reports.`,
       techs: ['React', 'Next.js', 'Electron', 'Node.js', 'Strapi', 'AWS'],
     },
+    {
+      key: 2,
+      img: 'MAR - JUN 2019',
+      company: 'Corlife',
+      link: 'https://www.linkedin.com/company/corlife-insurance-agency-inc-/about/',
+      position: 'Internship',
+      description: `Work with the UI team to engineer and improve major features of Corlife web app. Including the desktop app for admin to manage agents data, transactions and reports.`,
+      techs: ['HTML', 'CSS', 'Javascript', 'jQuery', 'C#'],
+    },
   ];
 
   return (
