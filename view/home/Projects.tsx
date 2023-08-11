@@ -17,8 +17,8 @@ const Projects = () => {
         'Tailwind',
         'Prisma',
         'MongoDB',
-        'NextAuth',
         'Pusher',
+        'NextAuth',
       ],
     },
   ];
