@@ -8,7 +8,7 @@ const Projects = () => {
     {
       key: 1,
       img: '/messenger.png',
-      project: 'Real-Timee Messenger Clone',
+      project: 'Real-Time Messenger Clone',
       link: 'https://messenger-mgfu.vercel.app/',
       description: `A messenger app clone is a software application designed to replicate the core features and functionalities of a popular messaging platform, often with slight variations or customizations.`,
       techs: [
@@ -19,6 +19,22 @@ const Projects = () => {
         'MongoDB',
         'Pusher',
         'NextAuth',
+      ],
+    },
+    {
+      key: 1,
+      img: '/ai-companion.png',
+      project: 'AI Companion',
+      link: 'https://ai-companion-mddjkmd8z-jjuanzo.vercel.app/',
+      description: `The AI Companion app is your gateway to a smarter and more connected life. This innovative application harnesses the power of artificial intelligence to provide you with personalized assistance, information, and companionship right at your fingertips.`,
+      techs: [
+        'Next.js 13',
+        'React',
+        'Tailwind',
+        'Prisma',
+        'Stripe',
+        'MySQL',
+        'Clerk',
       ],
     },
   ];
