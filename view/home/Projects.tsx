@@ -1,51 +1,42 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
+import Image from "next/image";
 
-import { FiArrowUpRight } from 'react-icons/fi';
+import { FiArrowUpRight } from "react-icons/fi";
 
 const Projects = () => {
   const projects = [
     {
       key: 1,
-      img: '/acc_web.png',
-      project: 'Affinity Capital Corp Website',
-      link: 'https://affinitycorp.net/',
+      img: "/acc_web.png",
+      project: "Affinity Capital Corp Website",
+      link: "https://affinitycorp.net/",
       description: `Build a React.js website application for Affinity Capital Corp a SEC-Licensed Mutual Fund Distributor that received its license in October 2019.`,
-      techs: ['React', 'Ant Design', 'AWS Lightsail', 'Docker', 'NGINX'],
+      techs: ["React", "Ant Design", "AWS Lightsail", "Docker", "NGINX"],
     },
     {
       key: 1,
-      img: '/nvestmo.png',
-      project: 'Nvestmo Portal',
-      link: 'https://affinity.nvestmo.com/home',
+      img: "/nvestmo.png",
+      project: "Nvestmo Portal",
+      link: "https://affinity.nvestmo.com/home",
       description: `Build a client portal for Affinity Capital Corp using React.js framework. User can invest, redeem, fund switch and track their investment.`,
       techs: [
-        'React',
-        'Ant Design',
-        'AWS Lightsail',
-        'AWS S3',
-        'Docker',
-        'NGINX',
-        'Strapi',
-        'PostgreSQL',
+        "React",
+        "Ant Design",
+        "AWS Lightsail",
+        "AWS S3",
+        "Docker",
+        "NGINX",
+        "Strapi",
+        "PostgreSQL",
       ],
     },
     {
       key: 2,
-      img: '/salezmo.png',
-      project: 'Salezmo Portal',
-      link: 'https://affinity.nvestmo.com/home',
-      description: `Build a agent/CISol website for Affinity Capital Corp to manage their business and client investment.`,
-      techs: [
-        'Next.js',
-        'Ant Design',
-        'AWS Lightsail',
-        'AWS S3',
-        'Docker',
-        'NGINX',
-        'Strapi',
-        'PostgreSQL',
-      ],
+      img: "/path-finder.png",
+      project: "Path Finder",
+      link: "https://jjuanzo.github.io/path-finder/",
+      description: `A visual and interactive tool to demonstrate graph pathfinding algorithms.`,
+      techs: ["React.js", "Vite", "Typescript", "Tailwind CSS"],
     },
   ];
 
